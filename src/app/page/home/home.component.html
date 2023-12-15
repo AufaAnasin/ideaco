@@ -1,0 +1,62 @@
+<h1>List Pesawat</h1>
+<div>
+  <h2>{{TripleSeven.name}}</h2>
+  <p>Jumlah Mesin Pesawat : {{TripleSeven.engineAmount}}</p>
+  <p>Jumlah Penumpang: {{TripleSeven.passenger}}</p>
+  <p>Apakah Punya Copilot : {{TripleSeven.hascopilot ?  "Ada" : "Tidak"}}</p>
+  <p>{{TripleSeven.aircraftDetail("Boeing 777", 2, 350)}}</p>
+</div>
+
+<div>
+  <h2>{{AirbusThreeFifty.name}}</h2>
+  <p>Jumlah Mesin Pesawat : {{AirbusThreeFifty.engineAmount}}</p>
+  <p>Jumlah Penumpang: {{AirbusThreeFifty.passenger}}</p>
+  <p>Apakah Punya Fitur Flybywire : {{AirbusThreeFifty.flybywire ?  "Ada" : "Tidak"}}</p>
+</div>
+
+<div>
+  <h2>{{CesnaOneSeventyTwo.name}}</h2>
+  <p>Jumlah Mesin Pesawat : {{CesnaOneSeventyTwo.engineAmount}}</p>
+  <p>Jumlah Penumpang: {{CesnaOneSeventyTwo.passenger}}</p>
+  <p>Apakah Bisa Terbang? (Lihat Kapasitas Penumpang) : {{CesnaOneSeventyTwo.isAble() ? "Bisa Terbang" : "Tidak Bisa Terbang"}}</p>
+</div>
+
+<h1>List Mobil</h1>
+
+<div>
+  <h2>{{ToyotaSupra.name}}</h2>
+  <p>CC : {{ToyotaSupra.capacity}}</p>
+  <p>Silinder: {{ToyotaSupra.cylinder}}</p>
+  <p>{{ToyotaSupra.carDetail()}}</p>
+</div>
+<div>
+  <h2>{{HondaCRV.name}}</h2>
+  <p>CC : {{HondaCRV.capacity}}</p>
+  <p>Silinder: {{HondaCRV.cylinder}}</p>
+  <p>{{HondaCRV.airbagAmount()}}</p>
+</div>
+<div>
+  <h2>{{MazdaCX.name}}</h2>
+  <p>CC : {{MazdaCX.capacity}}</p>
+  <p>Silinder: {{MazdaCX.cylinder}}</p>
+  <p>{{MazdaCX.whatColor()}}</p>
+</div>
+<div>
+  <h2>{{MazdaCS.name}}</h2>
+  <p>CC : {{MazdaCS.capacity}}</p>
+  <p>Silinder: {{MazdaCS.cylinder}}</p>
+  <p>{{MazdaCS.whatColor()}}</p>
+</div>
+
+<h1>List Kampus</h1>
+
+<div>
+  <h2>Campus Name : {{TelkomUniversity.name}}</h2>
+  <p>Accrediation : {{TelkomUniversity.accreditation}}</p>
+  <p>{{TelkomUniversity.detailTelkom()}}</p>
+</div>
+<div>
+  <h2>Campus Name : {{BunisUniversity.name}}</h2>
+  <p>Accrediation : {{BunisUniversity.accreditation}}</p>
+  <p>{{BunisUniversity.detailBunis()}}</p>
+</div>
